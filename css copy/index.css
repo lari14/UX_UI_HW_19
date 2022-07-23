@@ -1,0 +1,101 @@
+.inline-block{
+    display:inline-block;
+    vertical-align:top;
+}
+.logo{
+    padding-left:10%;
+   
+}
+nav{
+    width:75%;
+    padding-top:4%;
+    padding-left:11%;
+}
+nav ul {
+    text-align:center;
+    width:50%;
+}
+
+/*Below this line is the hero image section.*/
+
+.content{
+    background-color:#CAD3E8;
+    width:1300px;
+    height:450px;
+    
+}
+
+/* Media Queries for My Skills and My Work section.*/
+@media only screen and (max-width:600px){ 
+/* My Skills section coded using CSS flex.Style as two columns. */
+
+h2.myskills{
+    border-style:solid;
+    border-width:2px;
+}
+.container-fluid{
+    float:center;
+    border-style:solid;
+    border-width:2px;
+    height: 600px;
+    width: 50;
+    min-width: 80%;
+    display: flex;
+    position: relative;
+}
+
+.left{
+    float:left;
+    background-color:lightgrey;
+    margin:auto;
+    
+
+}
+.right{
+    float:right;
+    background-color:lightgrey;
+    margin:auto;
+}
+h3{
+    text-align:center;
+}
+h4{
+    text-align: center;
+}
+.uidesignskills{
+}
+.communicationskills{
+    
+}
+
+/*below this line starts the my work section. Note that the container fluid on top is the same class type and the my skills section*/
+
+h1.mywork{
+    border-style:solid;
+    border-width:2px;   
+}
+p{
+    text-align:center;
+}
+
+.project1{
+    margin:auto;
+}
+.project2{
+    margin:auto;
+}
+.project3{
+    margin:auto;
+}
+}
+/*Below this line is the footer CSS*/
+
+footer{
+    padding: 5px;
+}
+ul{
+    display:inline-block;
+    vertical-align: top;
+    padding-left:620px;
+}
+
