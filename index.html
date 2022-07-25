@@ -2,18 +2,18 @@
 <html>
     <head>
         <title></title>
-        <link rel="stylesheet" href="css/index.css">
+        <link rel="stylesheet" href="css/index.css" type="text/css">
     </head>
 
     <body>
     <!--Below this line is navigation-->
-        <header class="navigation">
+        <header id="navigation">
 
           <div class="inline-block logo">
                 <img src="Images/Logo.jpg" alt="Larissa Quiroz Logo and blue paint stain" width="150" height="150">
            </div>
 
-           <nav class="inline-block">
+           <nav class="inline-block ">
             <ul>
                 <li class="inline-block">Work</li>
                 <li class="inline-block">About</li>
@@ -26,19 +26,19 @@
         <section class="hero">
 
            <div class="content">
-            <h2>Hi, I am</h2>
+            <h3 class="hiiam">Hi, I am</h3>
             <h1>Larissa</h1> 
-            <h2>A UX/UI Designer from Chicago</h2>      
+            <h3 class="auxuidesigner">A UX/UI Designer from Chicago</h3>      
            </div>
         </section>
     <section>
         <div>
            <h2 class="myskills">My Skills</h2>
         
-          <div class="container-fluid"> 
+          <div class="container-fluid skills"> 
 <!-- 2 divs each containing H3 and P tags to show skills  -->
             <div class="left" >
-<!--Within this div will be the UX skills and The Graphic Design Skills. two seperate divs.-->
+<!--Within this div will be the UX skills and The Graphic Design Skills.-->
                 <div class="uxskills">
                  <ul>UX Skills:</ul>
                  <li>User Research</li>
@@ -61,19 +61,21 @@
            
             <div class="right" >
                <div class="uidesignskills">
-                <ul>UI Design Skills:</ul>
+                <ul>UI Design Skills:
                 <li>Storyboarding</li>
                 <li>Sketching</li>
                 <li>Wireframing</li>
+                </ul>
                </div>
    
                <div class="communicationskills">
-                <ul>Communication Skills:</ul>
+                <ul>Communication Skills:
                 <li>Collaboration</li>
                 <li>Critiquing</li>
                 <li>Empathy</li>
                 <li>Project Management</li>
                 <li>Public Speaking</li>
+                </ul>
                </div>
             </div>
         </div>
@@ -107,7 +109,7 @@
         </div>
            
      </section>
-    
+    <button class="backtotop" onclick="backtotop()">Back To Top</button>
     <!--Below this line is the footer-->
         <footer>
             <ul>
