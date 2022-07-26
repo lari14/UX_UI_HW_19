@@ -16,6 +16,9 @@ nav ul {
     text-align:right;
     padding-right:10px;
 }
+nav li{
+    padding-left:15px;
+}
 
 /*Below this line is the hero image section.*/
 
@@ -46,9 +49,9 @@ h1{
 h2.aboutme {
     text-align:center;
     border-style:solid;
+    border-color:lightgray;
 }
 .insideaboutme{
-    border-style:solid;
     display:flex;
     height:500px;
 
@@ -83,12 +86,11 @@ h2.aboutme {
 h2.myskills{
     border-style:solid;
     border-width:2px;
+    border-color:lightgray;
     text-align:center;
 }
 .container-fluid{
     float:center;
-    border-style:solid;
-    border-width:2px;
     height: 600px;
     width: 50;
     min-width: 80%;
@@ -125,6 +127,7 @@ h2.myskills{
 h2.mywork{
     border-style:solid;
     border-width:2px;
+    border-color:lightgray;
     text-align:center;  
 }
 
@@ -149,14 +152,20 @@ h5{
     text-decoration: underline;
     background-color: #CAD3E8;
     border: none;
-    height:60px;
-    width:100px;
+    height:70px;
+    width:140px;
+    font-size:large;
+    border-style:solid;
+    border-color:darkgrey;
 }
 /*Below this line is the footer CSS*/
 
 footer ul{
     padding: 5px;
     text-align:center;
+}
+footer li{
+    padding-right: 15px;
 }
 
 
